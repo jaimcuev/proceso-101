@@ -11,7 +11,7 @@ const proceso = (minutos, minutoActual = 0) => {
     }
 }
 
-const SERVICE_ENDPOINT = "172.21.191.250:9090";
+const SERVICE_ENDPOINT = "172.21.191.250";
 
 log(`Inicio de la instancia`);
 
