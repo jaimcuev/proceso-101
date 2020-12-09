@@ -11,7 +11,7 @@ const proceso = (minutos, minutoActual = 0) => {
     }
 }
 
-const SERVICE_ENDPOINT = "cluster-local-gateway.istio-system.svc.cluster.local";
+const SERVICE_ENDPOINT = "http://graphql.3buqyx7op0w.svc.cluster.local";
 
 log(`Inicio de la instancia`);
 
