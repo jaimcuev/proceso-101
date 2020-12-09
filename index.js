@@ -5,5 +5,7 @@ const proceso = (minutos, minutoActual = 0) => {
     }
 }
 
+console.log(`INICIO DE INSTANCIA ${process.env.JOB_INDEX}`);
+
 const minutos = 25;
 proceso(minutos);
